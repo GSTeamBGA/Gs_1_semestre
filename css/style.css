@@ -17,7 +17,7 @@ body{
 .content{
     background-color: #fff;
     border-radius: 15px;
-    width: 80%;
+    width: 960px;
     height:50%;
     display: flex;
     justify-content: space-between;
@@ -42,22 +42,35 @@ body{
 .title-primario{
     color: #fff;
 }
+.title-secundario{
+    color: #58af9b;
+}
 
 .description{
     font-size:14px;
     font-weight:300;
-    color: #fff;
+   
     line-height: 30px;
+}
+.description-primario{
+    color: #fff;
+}
+.description-secundario{
+    color: #7f8c8d;
 }
 .btn{
     border-radius: 15px;
     text-transform: uppercase;
     color: #fff;
-    line-height: 30px;
+    line-height: 20px;
     cursor: pointer;
     font-size: 10px;
     padding: 10px 50px;
     font-weight: bold;
+    width: 150px;
+    align-self: center;
+    border: none;
+    
 }
 .btn-primario{
     background-color: transparent;
@@ -70,6 +83,16 @@ body{
     color: #58af9b;
 }
 
+.btn-secundario{
+    background-color: #58af9b;
+    border: 1px solid #58af9b ;
+}
+.btn-secundario:hover{
+    background-color: #fff;
+    border: 1px solid #58af9b ;
+    color: #58af9b;
+}
+
 
 .primeiro-content{
     display: flex;
@@ -78,6 +101,14 @@ body{
 .form{
     display: flex;
     flex-direction: column;
+    width: 55%;
+}
+
+.form input{
+    height: 45px;
+    border: none;
+    background-color: #ecf0f1;
+    margin: 8px;
 }
 
 .segundo-content{
@@ -92,4 +123,7 @@ body{
 }
 .segunda-column{
     flex: 2 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
