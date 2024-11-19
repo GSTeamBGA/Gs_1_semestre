@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Economica:wght@400;700&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+:root {
+  font-size: 16px;
+  --cor-primaria: #ffffff;
+  --cor-secundaria-1: #0a0333;
+  --cor-secundaria-2: #71fbe4;
+  --cor-fonte: #315061;
+  --cor-fonte-fraca: #444;
+  --cor-fonte-alt: #315061;
+  --bg: #94B897;
+  --bg-card: #fff;
+  --sombra: rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif ;
+}
+
+body {
+  background: var(--bg);
+}
+
+#content {
+  display: grid;
+  grid-template: auto / 1fr 4fr;
+  min-height: 100vh;
+}
+
+ul,li {
+  list-style: none;
+  list-style-type: none;
+}
+
+
+aside {
+  background: var(--cor-primaria);
+  color: var(--cor-fonte-alt);
+  grid-column: 1 / 2;
+  grid-row: 1 / span 3;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 24px 0;
+}
+
+aside .logo {
+  display: flex;
+  justify-content: center;
+  font-size: min(1.5rem, 44px);
+  gap: 8px;
+  align-items: center;
+  padding: 8px;
+}
+
+
+aside .menu {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-left: 32px;
+}
+
+.menu li a {
+  padding: 8px;
+}
