@@ -7,132 +7,135 @@
 </head>
 <body>
     <div id="content">
+      
         <aside>
-            <div class="logo">
-              <img src="../imgs/EcoSmart_semfundo.png" alt="">
+          <div class="logo">
+            <img src="../imgs/EcoSmart_semfundo.png" alt="">
+            
+          </div>
+          <ul class="menu">
+            <li class="selecionado">
+              <a href="#"><i class="bi bi-house"></i>Dashboard</a>
+            </li>
+            
+            <li>
+              <a href="#"><i class="bi bi-chat"></i>Mensagens</a>
+            </li>
+            
+          </ul>
+          <ul class="menu"> 
+            <li>
+              <a href="#"><i class="bi bi-box-arrow-right"></i>Sair</a>
+            </li>
+          </ul>
+          
+        </aside>
+        <main>
+          <section class="projetos">
+            <h2>Seu uso de energia</h2>
+            <label >Quantidade de pessoas que residem:</label>
+            <input type="number" id="numero" max="8" min="0">
+            <div>
+              <div class="card">
+                <div class="barra"></div>
+                <div class="conteudo">
+                  <h3>Uso de energia durante o mês:</h3>
+                  <p>
+                    A quantidade de uso de energia ultilizada no"mês" é de : <span id="colorido"> 750kWh</span>
+                  </p>
+                  <p>
+                      *Isso equivale por dia aproximadamente <span> ≈ 25kWh/dia</span>
+                  </p>
+                  
+                 
+                </div>
+               
+              </div>
+              <div class="card">
+                <div class="barra"></div>
+                <div class="conteudo">
+                  <h3>Quantidade de recursos ultilizados:</h3>
+                  <p>
+                    A quantidade de recursos ultilizados para a produzir essa quantidade de energia é:
+                    <span class="recursos">≈ 1.875L </span>
+                    *água ultilizada para geração de energida (1kWh = 2,5L) em uma Usinas Termelétricas
+                    
+                  </p>
+                  
+                </div>
+              </div>
+              <div class="card">
+                <div class="barra"></div>
+                <div class="conteudo">
+                  <h3>Previsão de custo:</h3>
+                  <p>
+                    Considerando a tarifa média de R$ 0,66 por kWh sua conta será de: <span>R$492,00</span>
+                  </p>
+                 
+                </div>
+              </div>
+              <div class="card">
+                <div class="barra"></div>
+                <div class="conteudo">
+                  <h3>Grafico de consumo</h3>
+                  <img src="../imgs/grafico_emR$.png" alt="">
+                  <p>
+                    Seu gasto na sua conta de energia foi de 24% a mais referente ao mês passado
+                  </p>
+                  <img src="../imgs/grafico_consumo_kWh.png" alt="">
+                  <p>
+                    Seu gasto de kWh foi de 25% a mais comparado ao mês anterior
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="barra"></div>
+                <div class="conteudo">
+                  <h3>Consumo no últmo mês:</h3>
+                  <p>
+                    Total de energia ultilizada no últmo mês: <span>600kWh</span>
+                    Média de energia últilizada por dia no últmo mês: <span>20kWh/dia</span>
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="barra"></div>
+                <div class="conteudo">
+                  <h3>Custo do último mês:</h3>
+                  <p>
+                    Considerando a tarifa média de R$ 0,66 por kWh sua conta foi de <span>R$ 396,00</span>
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="anuncios">
+            <h2>Dicas & Conselhos</h2>
+            <div class="card">
+              <div>
+                <h4>Desligue e desconecte aparelhos não utilizados:</h4>
+                <p>
+                  É comum deixar aparelhos eletrônicos em stand-by, mas mesmo assim eles continuam consumindo energia. Sugiro o uso de extensões com interruptores para facilitar o desligamento total de vários aparelhos quando não estiverem em uso.
+                </p>
+              </div>
+              <div>
+                <h4>Escolher eletrodomésticos eficientes:</h4>
+                <p>
+                  Se for hora de substituir algum aparelho, acho melhor a escolha de modelos com selo de eficiência energética, que consomem menos eletricidade. Explicar que, embora possam ser um pouco mais caros, eles ajudam a economizar a longo prazo na conta de luz.
+                </p>
+              </div>
               
             </div>
-            <ul class="menu">
-              <li class="selecionado">
-                <a href="#"><i class="bi bi-house"></i>Dashboard</a>
-              </li>
-              
-              <li>
-                <a href="#"><i class="bi bi-chat"></i>Mensagens</a>
-              </li>
-              
-            </ul>
-            <ul class="menu"> 
-              <li>
-                <a href="#"><i class="bi bi-box-arrow-right"></i>Sair</a>
-              </li>
-            </ul>
-            
-          </aside>
-          <main>
-            <section class="projetos">
-                <h2>Seu uso de energia</h2>
-                <label >Quantidade de pessoas que residem:</label>
-                <input type="number" id="numero" max="8" min="0">
-                <div>
-                    <div class="card">
-                        <div class="barra"></div>
-                        <div class="conteudo">
-                          <h3>Uso de energia durante o mês:</h3>
-                          <p>
-                            A quantidade de uso de energia ultilizada no"mês" é de : <span id="colorido"> 750kWh</span>
-                          </p>
-                          <p>
-                            *Isso equivale por dia aproximadamente <span> ≈ 25kWh/dia</span>
-                        </p>
-                        
-                       
-                      </div>
-                    </div>
-                    <div class="card">
-                        <div class="barra"></div>
-                        <div class="conteudo">
-                          <h3>Quantidade de recursos ultilizados:</h3>
-                          <p>
-                            A quantidade de recursos ultilizados para a produzir essa quantidade de energia é:
-                            <span class="recursos">≈ 1.875L </span>
-                            *água ultilizada para geração de energida (1kWh = 2,5L) em uma Usinas Termelétricas
-                            
-                          </p>
-                          
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="barra"></div>
-                        <div class="conteudo">
-                          <h3>Previsão de custo:</h3>
-                          <p>
-                            Considerando a tarifa média de R$ 0,66 por kWh sua conta será de: <span>R$492,00</span>
-                          </p>
-                         
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="barra"></div>
-                        <div class="conteudo">
-                          <h3>Grafico de consumo</h3>
-                          <img src="../imgs/grafico_emR$.png" alt="">
-                          <p>
-                            Seu gasto na sua conta de energia foi de 24% a mais referente ao mês passado
-                          </p>
-                          <img src="../imgs/grafico_consumo_kWh.png" alt="">
-                          <p>
-                            Seu gasto de kWh foi de 25% a mais comparado ao mês anterior
-                          </p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="barra"></div>
-                        <div class="conteudo">
-                          <h3>Consumo no últmo mês:</h3>
-                          <p>
-                            Total de energia ultilizada no últmo mês: <span>600kWh</span>
-                            Média de energia últilizada por dia no últmo mês: <span>20kWh/dia</span>
-                          </p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="barra"></div>
-                        <div class="conteudo">
-                          <h3>Custo do último mês:</h3>
-                          <p>
-                            Considerando a tarifa média de R$ 0,66 por kWh sua conta foi de <span>R$ 396,00</span>
-                          </p>
-                          
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="anuncios">
-                <h2>Dicas & Conselhos</h2>
-                <div class="card">
-                    <div>
-                        <h4>Desligue e desconecte aparelhos não utilizados:</h4>
-                        <p>
-                          É comum deixar aparelhos eletrônicos em stand-by, mas mesmo assim eles continuam consumindo energia. Sugiro o uso de extensões com interruptores para facilitar o desligamento total de vários aparelhos quando não estiverem em uso.
-                        </p>
-                      </div>
-                      <div>
-                        <h4>Escolher eletrodomésticos eficientes:</h4>
-                        <p>
-                          Se for hora de substituir algum aparelho, acho melhor a escolha de modelos com selo de eficiência energética, que consomem menos eletricidade. Explicar que, embora possam ser um pouco mais caros, eles ajudam a economizar a longo prazo na conta de luz.
-                        </p>
-                      </div>
-                </div>
-            </section>
-            <section class="em-alta">
-                <h2>Status de Alerta</h2>
-                <div>
-                  Seu uso de energia referente a quantidade de pessoas é <span id="titulo"> </span>
-                </div>
-              </section>
-          </main>
-    </div>
+          </section>
+          <section class="em-alta">
+            <h2>Status de Alerta</h2>
+            <div>
+              Seu uso de energia referente a quantidade de pessoas é <span id="titulo"> </span>
+            </div>
+          </section>
+        </main>
+      </div>
     
 </body>
 </html>
