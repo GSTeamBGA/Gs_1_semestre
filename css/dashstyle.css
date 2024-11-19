@@ -114,3 +114,65 @@ aside a {
   section h2 {
     font-weight: 400;
   }
+
+  .projetos h2{
+    font-weight: 600;
+    font-style: normal;
+}
+.projetos {
+  grid-row: span 2;
+}
+
+.projetos > div {
+  display: grid;
+  gap: 16px;
+  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.projetos .card {
+  display: grid;
+  grid-template-columns: 6px 1fr;
+}
+
+.projetos .card .barra {
+  background: linear-gradient(
+    135deg,
+    var(--cor-secundaria-1),
+    var(--cor-secundaria-2)
+  );
+  border-radius: 4px 0 0 4px;
+}
+
+.projetos .card .conteudo {
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.projetos .card .conteudo p {
+  font-size: 1rem;
+  color: var(--cor-fonte-fraca);
+}
+
+.projetos .card h3 {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.projetos .card .acoes {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 4px;
+  margin-top: auto;
+}
+
+.projetos .card .acoes button {
+  background: var(--bg-card);
+  border: none;
+  color: var(--cor-primaria);
+  font-size: 1.2rem;
+  padding: 8px;
+}
