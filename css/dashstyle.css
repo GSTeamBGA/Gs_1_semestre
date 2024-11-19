@@ -228,3 +228,39 @@ aside a {
     align-self: start;
     font-size: 0.9rem;
   }
+
+  .logo img{
+    width: 100%;
+}
+
+.conteudo p span{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: #000000;
+    padding: 20PX 70px;
+}
+#numero{
+    width:40px ;
+    background: #ffff;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    
+}
+.conteudo p span.recursos{
+    color: #7EACC5;
+
+}
+#titulo{
+  font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: #000000;
+    padding: 0PX 70px;
+}
