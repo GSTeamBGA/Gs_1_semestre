@@ -203,3 +203,28 @@ aside a {
     font-size: 0.9rem;
     color: var(--cor-fonte-fraca);
   }
+
+  .em-alta > div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 32px;
+  }
+  
+  .em-alta .perfil {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 8px;
+    align-items: center;
+  }
+  
+  
+  .em-alta .perfil p {
+    align-self: end;
+    font-weight: 500;
+  }
+  
+  .em-alta .perfil span {
+    align-self: start;
+    font-size: 0.9rem;
+  }
