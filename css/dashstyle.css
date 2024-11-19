@@ -68,3 +68,49 @@ aside .menu {
 .menu li a {
   padding: 8px;
 }
+
+aside a {
+    color: #315061;
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    font-size: 1.2rem;
+  }
+  
+  aside a:hover {
+    color: #002D72;
+  }
+  
+  aside .menu .selecionado {
+    background-color: var(--bg);
+    border-radius: 4px 0 0 4px;
+  }
+  
+  aside .menu .selecionado * {
+    color: var(--cor-fonte);
+  }
+  
+  
+  .card,.em-alta > div {
+    background: var(--bg-card);
+    box-shadow: 1px 1px 4px var(--sombra);
+    background: var(--bg-card);
+    border-radius: 4px;
+  }
+  
+  main {
+    display: grid;
+    padding: 16px;
+    grid-template: auto auto / 3fr 1fr;
+    gap: 24px;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  section h2 {
+    font-weight: 400;
+  }
