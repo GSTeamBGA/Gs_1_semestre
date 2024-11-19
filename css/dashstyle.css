@@ -264,3 +264,15 @@ aside a {
     color: #000000;
     padding: 0PX 70px;
 }
+
+.em-alta h2{
+    font-weight: 600;
+  }
+  .anuncios h2 {
+    font-weight: 600;
+  }
+  .conteudo img{
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+  }
