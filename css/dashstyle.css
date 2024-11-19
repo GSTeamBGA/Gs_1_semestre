@@ -176,3 +176,30 @@ aside a {
   font-size: 1.2rem;
   padding: 8px;
 }
+
+.anuncios .card {
+    flex-direction: column;
+    padding: 8px 32px;
+  }
+  
+  .anuncios .card > div {
+    padding: 24px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .anuncios .card > div:last-child {
+    border-bottom: none;
+  }
+  
+  .anuncios h4 {
+    font-weight: 500;
+    font-size: 1.05rem;
+  }
+  
+  .anuncios p {
+    font-size: 0.9rem;
+    color: var(--cor-fonte-fraca);
+  }
