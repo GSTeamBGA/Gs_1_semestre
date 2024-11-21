@@ -1,4 +1,4 @@
-# Gs_1_semestre
+# Global Solution_1_semestre
 
 <div align="center">
   <img src="./imgs/EcoSmart_semfundo.png" alt="EcoSmart Logo" width="300px">
@@ -29,3 +29,13 @@ A **EcoSmart** promove o uso responsável de eletricidade através de uma plataf
 
 A integração do site com o medidor permite que cada usuário visualize um histórico detalhado do consumo de energia, recebendo gráficos e relatórios personalizados para facilitar a análise do consumo ao longo do tempo. 
 Ao incentivar o uso eficiente de energia, o EcoSmart promove o consumo consciente e apoia o crescimento econômico sustentável ao impulsionar parcerias com empresas. Dessa forma, o projeto não só facilita a economia doméstica para os usuários, mas também fomenta práticas de consumo que beneficiam tanto as pessoas quanto o meio ambiente, contribuindo para uma preservação ambiental que reflete em um futuro mais sustentável.
+
+---
+## 🎯 **Funcionalidades Principais**  
+
+- 🔎 **Monitoramento em tempo real** do consumo de energia.  
+- 🏅 **Recompensas** por redução no consumo.  
+- 📈 **Relatórios gráficos** para análise detalhada.  
+- 🛒 **Integração com lojas parceiras** para resgatar pontos.  
+
+---
