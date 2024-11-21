@@ -15,4 +15,3 @@ const input = document.getElementById('numero');
                 span.style.color = 'black';
             }
         });
-        
