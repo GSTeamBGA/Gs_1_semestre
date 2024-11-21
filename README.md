@@ -42,25 +42,21 @@ Ao incentivar o uso eficiente de energia, o EcoSmart promove o consumo conscient
 # 👥 Team BGA
 
 <div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="./imgs/foto_Bruno.png" width="150" alt="Bruno Cantacini">
-        <h3>Bruno Cantacini</h3>
-        <p>RM: 560242</p>
-      </td>
-      <td align="center">
-        <img src="./imgs/foto_Gustavo.png" width="150" alt="Gustavo Gonçalves">
-        <h3>Gustavo Gonçalves</h3>
-        <p>RM: 556823</p>
-      </td>
-      <td align="center">
-        <img src="./imgs/foto_Amanda.png" width="150" alt="Amanda Galdino">
-        <h3>Amanda Galdino</h3>
-        <p>RM: 560066</p>
-      </td>
-    </tr>
-  </table>
+  <div style="display: inline-block; margin: 20px;">
+    <img src="./imgs/foto_Bruno.png" width="150" alt="Bruno Cantacini">
+    <h3>Bruno Cantacini</h3>
+    <p>RM: 560242</p>
+  </div>
+  <div style="display: inline-block; margin: 20px;">
+    <img src="./imgs/foto_Gustavo.png" width="150" alt="Gustavo Gonçalves">
+    <h3>Gustavo Gonçalves</h3>
+    <p>RM: 556823</p>
+  </div>
+  <div style="display: inline-block; margin: 20px;">
+    <img src="./imgs/foto_Amanda.png" width="150" alt="Amanda Galdino">
+    <h3>Amanda Galdino</h3>
+    <p>RM: 560066</p>
+  </div>
 </div>
 
 
