@@ -39,14 +39,8 @@ Ao incentivar o uso eficiente de energia, o EcoSmart promove o consumo conscient
 - 🛒 **Integração com lojas parceiras** para resgatar pontos.  
 
 ---
-<<<<<<< HEAD
 # 🗺 Roadmap - [Link do Trello](https://trello.com/invite/b/673363e88fe9d386151ce014/ATTI8e6d6f53746dfee3b1e9fe0e362550731DF8FD21/ecosmart-gs)
 # 🖌 Figma - [Link do Figma](https://www.figma.com/design/Dl7lMdRpZJsvwBXYQa7Piy/EcoSmart?node-id=61-14&t=oFN0R9EuyMkDENXm-1)
----
-=======
-# 🗺 Roadmap  -  [Link do Trello](https://trello.com/invite/b/673363e88fe9d386151ce014/ATTI8e6d6f53746dfee3b1e9fe0e362550731DF8FD21/ecosmart-gs)
-
->>>>>>> b47de90b5a80818bc7d9c649f74be18361cab4dd
 # 👥 Team BGA
 
 <div align="center">
